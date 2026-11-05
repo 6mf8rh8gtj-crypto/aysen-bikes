@@ -1,7 +1,7 @@
 const bikes=[
 {id:1,name:'Patagonia Trail',category:'Montaña',price:549990,description:'Aventura y control para senderos de montaña.',image:'https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80'},
 {id:2,name:'Ciudad Verde',category:'Urbana',price:329990,description:'Comodidad para recorridos diarios.',image:'https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=800&q=80'},
-{id:3,name:'Ruta Austral',category:'Ruta',price:799990,description:'Ligereza y velocidad.',image:'https://images.unsplash.com/photo-1541625602330-2277b4c461de?auto=format&fit=crop&w=800&q=80'},
+{id:3,name:'Ruta Austral',category:'Ruta',price:799990,description:'Ligereza y velocidad.',image:'images/ruta-austral.svg'},
 {id:4,name:'Cóndor MTB',category:'Montaña',price:629990,description:'Para caminos exigentes.',image:'https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?auto=format&fit=crop&w=800&q=80'},
 {id:5,name:'Paseo Sur',category:'Urbana',price:289990,description:'Práctica para la ciudad.',image:'https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80'},
 {id:6,name:'Viento Pro',category:'Ruta',price:949990,description:'Para recorridos largos.',image:'https://images.unsplash.com/photo-1511994298241-608e28f14fde?auto=format&fit=crop&w=800&q=80'}
