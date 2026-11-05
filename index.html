@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aysén Bikes: bicicletas para descubrir nuevos caminos.">
+  <title>Aysén Bikes | Explora sin límites</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#inicio">🚲 Aysén <span>Bikes</span></a>
+    <nav aria-label="Navegación principal"><a href="#catalogo">Catálogo</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a></nav>
+    <button class="cart" id="cartButton" aria-label="Ver carrito">🛒 <span id="cartCount">0</span></button>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-inner"><span class="eyebrow">AVENTURA SOBRE DOS RUEDAS</span><h1>Tu próxima aventura comienza aquí.</h1><p>Descubre bicicletas para la ciudad, la montaña y cada camino por explorar.</p><a class="primary" href="#catalogo">Explorar bicicletas →</a></div>
+    </section>
+    <section class="section" id="catalogo"><div class="section-head"><div><span class="eyebrow dark">NUESTRA COLECCIÓN</span><h2>Encuentra tu bicicleta</h2></div><p>Modelos de ejemplo y precios referenciales en CLP.</p></div>
+      <div class="filters" role="group" aria-label="Filtrar bicicletas"><button class="filter active" data-filter="Todas">Todas</button><button class="filter" data-filter="Montaña">Montaña</button><button class="filter" data-filter="Urbana">Urbana</button><button class="filter" data-filter="Ruta">Ruta</button></div>
+      <div class="products" id="products"></div>
+    </section>
+    <section class="about" id="nosotros"><div><span class="eyebrow">NUESTRA PASIÓN</span><h2>Más caminos. Más historias.</h2></div><p>En Aysén Bikes creemos que cada recorrido es una oportunidad para descubrir algo nuevo. Esta tienda es un proyecto demostrativo creado para aprender desarrollo y despliegue web.</p></section>
+    <section class="contact section" id="contacto"><h2>¿Listo para pedalear?</h2><p>Explora nuestro catálogo y encuentra inspiración para tu próximo recorrido.</p><a class="primary" href="mailto:hola@example.com?subject=Consulta%20Ays%C3%A9n%20Bikes">Escríbenos →</a><small>Correo ilustrativo; reemplázalo por uno real antes de publicar comercialmente.</small></section>
+  </main>
+  <footer>© <span id="year"></span> Aysén Bikes · Sitio de demostración · Precios y productos ficticios.</footer>
+  <dialog id="cartDialog"><div class="dialog-head"><h2>Tu carrito</h2><button id="closeCart" aria-label="Cerrar carrito">✕</button></div><div id="cartItems"></div><p class="total" id="cartTotal"></p><button class="primary" id="clearCart">Vaciar carrito</button><p class="note">Carrito de demostración. No se realizan pagos.</p></dialog>
+</body>
+</html>
